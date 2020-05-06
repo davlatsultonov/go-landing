@@ -2,14 +2,10 @@
 
 .how-we-work {
 
-  &__title {
-    font-size: 42px;
-    font-weight: 300;
-  }
-
   &__items {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 15px;
+    margin-bottom: 30px;
   }
 }
