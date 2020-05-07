@@ -1,0 +1,30 @@
+.achievement-notes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99px;
+  height: 64px;
+  border-radius: 15px 15px 15px 0;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12);
+  background-image: linear-gradient(123deg, #ff8200 16%, #ff5270 87%);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.06;
+  padding: 13px 8px 12px 11px;
+  color: #ffffff;
+
+  &_sm {
+    font-size: 18px;
+  }
+
+  &_md {
+    width: 145px;
+    height: 86px;
+  }
+
+  &_lg {
+    width: 165px;
+    height: 86px;
+    font-size: 56px;
+  }
+}
