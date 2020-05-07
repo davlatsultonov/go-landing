@@ -1,6 +1,6 @@
 .achievement-notes {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
   width: 99px;
   height: 64px;
   border-radius: 15px 15px 15px 0;
@@ -9,12 +9,13 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.06;
-  padding: 12px 7px 14px 15px; /*12px 7px 14px 15px*/
+  padding: 18px 7px 14px 15px;
   color: #ffffff;
   position: relative;
 
   &_sm {
     font-size: 18px;
+    padding-top: 10px;
   }
 
   &_md {

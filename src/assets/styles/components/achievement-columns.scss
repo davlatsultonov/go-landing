@@ -1,13 +1,16 @@
 .achievement-columns {
-  display: flex;
+  float: left;
+  width: 61%;
 
   &__item {
+    display: inline-block;
+    vertical-align: middle;
     width: 261px;
     height: 271px;
     padding: 35px 25px;
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12);
-    margin-right: 30px;
+    margin-right: 25px;
   }
 
   &__title {
