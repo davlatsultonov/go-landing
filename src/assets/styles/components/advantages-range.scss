@@ -1,0 +1,30 @@
+.advantages-range {
+  display: flex;
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+
+  &__description {
+    font-size: 22px;
+    line-height: 1.27;
+
+    .description__title {
+      font-size: 32px;
+      font-weight: bold;
+
+      & > span {
+        font-size: 24px;
+      }
+    }
+  }
+
+}
