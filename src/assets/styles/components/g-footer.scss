@@ -1,21 +1,16 @@
 @import "g-footer__first-row";
 
 .g-footer {
-  width: 1080px;
-  padding: 0 45px;
-  position: relative;
 
   &__wrapper {
-    max-width: 1200px;
+    max-width: 1024px;
     margin: auto;
     padding: 0 20px;
   }
 
   &__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1 0;
+    width: 100%;
+    overflow: hidden;
 
     &::after {
       clear: both;
@@ -46,7 +41,6 @@
   }
 
   &__nav {
-    overflow: hidden;
     float: left;
     margin-bottom: 0;
 
@@ -58,6 +52,26 @@
       padding: 0 !important;
       list-style: none;
     }
+  }
+
+  &__seo {
+    display: grid;
+    float: right;
+    max-width: 320px;
+    padding-top: 0;
+    font-size: 11px;
+    line-height: 1.2;
+
+
+    &-icons {
+
+      span {
+        float: right;
+        margin-top: 17px;
+        font-weight: 700;
+      }
+    }
+
   }
 
 }
