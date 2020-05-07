@@ -1,0 +1,9 @@
+@import "achievement-column";
+
+.section-achievement {
+
+  &__items {
+    display: flex;
+    margin: 30px 0;
+  }
+}
