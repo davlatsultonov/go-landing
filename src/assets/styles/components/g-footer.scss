@@ -1,5 +1,20 @@
+@import "g-footer__first-row";
+
 .g-footer {
   width: 1260px;
-  padding: 0px 45px;
+  padding: 0 45px;
   position: relative;
+
+  &__wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  &__logo {
+    display: block;
+    float: left;
+    margin-right: 38px;
+  }
+
 }
