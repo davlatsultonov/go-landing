@@ -1,7 +1,7 @@
 @import "g-footer__first-row";
 
 .g-footer {
-  width: 1260px;
+  width: 1080px;
   padding: 0 45px;
   position: relative;
 
@@ -11,10 +11,53 @@
     padding: 0 20px;
   }
 
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0;
+
+    &::after {
+      clear: both;
+      display: table;
+      content: "";
+    }
+  }
+
   &__logo {
     display: block;
     float: left;
     margin-right: 38px;
+  }
+
+  &__link{
+    font-size: 12px;
+    text-decoration: none;
+
+    &, &:visited {
+      color: #666;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+
+  }
+
+  &__nav {
+    overflow: hidden;
+    float: left;
+    margin-bottom: 0;
+
+    &-list {
+      float: left;
+      margin-top: 0 !important;
+      margin-right: 40px;
+      margin-bottom: 0;
+      padding: 0 !important;
+      list-style: none;
+    }
   }
 
 }
