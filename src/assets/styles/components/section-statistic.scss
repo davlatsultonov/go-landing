@@ -1,35 +1,36 @@
 .section-statistic {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: flex-end;
-  grid-template-areas: 'header .' 'footer-left footer-right';
+  width: 61%;
+  float: right;
 
   &__item {
+    width: 250px;
+    display: inline-block;
 
     &:nth-child(1) {
-      grid-area: header;
-      align-self: flex-start;
+      display: block;
+      margin-bottom: 99px;
 
       .section-statistic__notes {
         position: absolute;
-        top: -23px;
-        right: -104px;
+        top: -13px;
+        right: -147px;
+
+        .achievement-notes__icon {
+          top: 8px;
+          right: -77px;
+        }
       }
 
-      .achievement-notes__icon {
-        top: 8px;
-        right: -77px;
-      }
+
     }
 
     &:nth-child(2) {
-      grid-area: footer-left;
+      margin-right: 25px;
 
       .section-statistic__notes {
         position: absolute;
         top: -88px;
-        right: 50px;
+        right: 8px;
 
         .achievement-notes__icon {
           top: -9px;
@@ -39,12 +40,11 @@
     }
 
     &:nth-child(3) {
-      grid-area: footer-right;
 
       .section-statistic__notes {
         position: absolute;
-        top: -48px;
-        right: -12px;
+        top: -53px;
+        right: -52px;
 
         .achievement-notes__icon {
           right: 11px;
