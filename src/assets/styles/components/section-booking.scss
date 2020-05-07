@@ -1,8 +1,14 @@
+@import "booking-form";
+
 .section-booking {
 
   &__sub-title {
     width: 355px;
     margin-top: 10px;
     line-height: 1.4;
+  }
+
+  &__items {
+    padding: 5px 0 30px;
   }
 }
