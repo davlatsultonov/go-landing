@@ -15,9 +15,10 @@
   }
 
   &__input {
+    height: 40px;
     border-radius: 5px;
     border: solid 1px #a4a4a4;
-    padding: 12px 20px 13px;
+    padding: 5px 20px;
     margin-bottom: 12px;
     font-size: 12px;
   }
@@ -34,6 +35,11 @@
     padding: 9px 0 11px;
     margin-top: 7px;
     cursor: pointer;
+    transition: 0.175s ease;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   ::placeholder {
