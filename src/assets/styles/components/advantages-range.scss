@@ -2,15 +2,18 @@
   display: flex;
 
   &__item {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   &__icon {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    height: 43px;
+    max-width: 51px;
     margin-bottom: 25px;
+
+    img {
+      height: 100%;
+    }
   }
 
   &__description {
@@ -20,6 +23,7 @@
     .description__title {
       font-size: 32px;
       font-weight: bold;
+      margin-bottom: 4px;
 
       & > span {
         font-size: 24px;
