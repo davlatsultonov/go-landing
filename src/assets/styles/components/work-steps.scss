@@ -1,6 +1,7 @@
 .work-steps {
   &__item {
     display: inline-block;
+    vertical-align: middle;
     width: 176px;
     height: 210px;
     border-radius: 8px;
@@ -9,7 +10,7 @@
     padding: 30px 15px;
 
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-right: 15px;
     }
   }
 
