@@ -3,7 +3,7 @@
 
   &__item {
     width: 261px;
-    height: 261px;
+    height: 271px;
     padding: 35px 25px;
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12);
@@ -14,10 +14,13 @@
     font-size: 24px;
     font-weight: bold;
     color: #ff5500;
+    text-transform: uppercase;
+    margin-bottom: 4px;
 
     &_sub-title {
       font-size: 18px;
       font-weight: normal;
+      text-transform: lowercase;
     }
   }
 
@@ -34,7 +37,7 @@
       &:before{
         content:"•";
         font-size: 17px;
-        margin-right: 17px;
+        margin-right: 18px;
       }
     }
   }

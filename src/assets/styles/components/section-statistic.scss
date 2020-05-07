@@ -11,6 +11,12 @@
       grid-area: header;
       align-self: flex-start;
 
+      .section-statistic__notes {
+        position: absolute;
+        top: -23px;
+        right: -104px;
+      }
+
       .achievement-notes__icon {
         top: 8px;
         right: -77px;
@@ -23,7 +29,7 @@
       .section-statistic__notes {
         position: absolute;
         top: -88px;
-        right: 34px;
+        right: 50px;
 
         .achievement-notes__icon {
           top: -9px;
@@ -38,7 +44,7 @@
       .section-statistic__notes {
         position: absolute;
         top: -48px;
-        right: -31px;
+        right: -12px;
 
         .achievement-notes__icon {
           right: 11px;
@@ -59,13 +65,6 @@
       font-size: 76px;
       line-height: 0.87;
     }
-  }
-
-  &__notes {
-    position: absolute;
-    top: -23px;
-    right: -125px;
-
   }
 
 }
