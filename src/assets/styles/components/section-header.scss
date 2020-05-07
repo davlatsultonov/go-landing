@@ -1,0 +1,25 @@
+.section-header {
+
+  &__items {
+    display: grid;
+    grid-template-columns: 286px 1fr;
+    grid-column-gap: 15px;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  &__logo {
+    position: relative;
+    bottom: -20px;
+  }
+
+  &__notes {
+    height: 54px;
+    padding: 10px 13px 11px 14px;
+
+    .achievement-notes__icon {
+      top: -11px;
+      right: -70px;
+    }
+  }
+}

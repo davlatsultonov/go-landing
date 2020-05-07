@@ -12,6 +12,7 @@
   line-height: 1.06;
   padding: 13px 8px 12px 11px;
   color: #ffffff;
+  position: relative;
 
   &_sm {
     font-size: 18px;
@@ -27,4 +28,11 @@
     height: 86px;
     font-size: 56px;
   }
+
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
 }
