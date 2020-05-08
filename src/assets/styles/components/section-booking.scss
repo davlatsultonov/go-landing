@@ -8,6 +8,10 @@
     width: 355px;
     margin-top: 10px;
     line-height: 1.4;
+
+    @media (max-width: $xs) {
+      width: 300px;
+    }
   }
 
   &__items {

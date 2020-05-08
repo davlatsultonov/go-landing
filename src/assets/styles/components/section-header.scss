@@ -3,6 +3,10 @@
   &__items {
     margin: 30px 0;
     position: relative;
+
+    @media (max-width: $xs) {
+      margin: 52px 0 59px;
+    }
   }
 
   &__logo {
@@ -11,8 +15,16 @@
     position: relative;
     bottom: -20px;
 
+    @media (max-width: $xs) {
+      bottom: -44px;
+    }
+
     img {
       width: 340px;
+
+      @media (max-width: $xs) {
+        width: 280px;
+      }
     }
   }
 
@@ -22,6 +34,19 @@
     position: absolute;
     top: -10px;
     left: 36%;
+
+    @media (max-width: $sm) {
+      left: 47%;
+    }
+
+    @media (max-width: $xs) {
+      width: 90px;
+      height: 54px;
+      padding: 7px 0 0 10px;
+      left: 0;
+      margin-left: 0;
+      top: -26px;
+    }
 
     .achievement-notes__icon {
       top: -11px;

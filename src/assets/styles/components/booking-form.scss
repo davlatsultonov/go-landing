@@ -5,6 +5,14 @@
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12);
   padding: 22px 20px 25px;
 
+  @media (max-width: $sm) {
+    width: 310px;
+  }
+
+  @media (max-width: $xs) {
+    width: 290px;
+  }
+
 
   &__title {
     display: inline-block;
@@ -33,7 +41,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #ff5500;
-    padding: 9px 0 11px;
+    padding: 12px 0 10px;
     margin-top: 7px;
     cursor: pointer;
     transition: 0.175s ease;

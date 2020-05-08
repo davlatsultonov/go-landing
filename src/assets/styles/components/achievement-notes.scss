@@ -21,11 +21,17 @@
   &_md {
     width: 145px;
     height: 86px;
+
+    @media (max-width: $xs) {
+      width: 133px;
+      height: 83px;
+    }
   }
 
   &_lg {
     width: 165px;
     height: 86px;
+    padding-top: 12px;
     font-size: 56px;
   }
 

@@ -2,35 +2,106 @@
   width: 61%;
   float: right;
 
+  @media (max-width: $sm) {
+    width: 54%;
+  }
+
+  @media (max-width: $xs) {
+    width: 100%;
+    float: none;
+  }
+
+  &__items {
+
+    @media (max-width: $xs) {
+      margin-bottom: 25px;
+    }
+  }
+
   &__item {
     width: 250px;
     display: inline-block;
 
+    @media (max-width: $sm) {
+      width: 190px;
+    }
+
+    @media (max-width: $xs) {
+      width: 120px;
+    }
+
     &:nth-child(1) {
       display: block;
       margin-bottom: 99px;
+
+      @media (max-width: $sm) {
+        margin-top: 22px;
+        margin-bottom: 120px;
+      }
+
+      @media (max-width: $xs) {
+        margin-top: 136px;
+        margin-bottom: 98px;
+      }
 
       .section-statistic__notes {
         position: absolute;
         top: -13px;
         right: -147px;
 
+        @media (max-width: $sm) {
+          top: -32px;
+          right: -170px;
+        }
+
+        @media (max-width: $xs) {
+          top: -103px;
+          left: 0;
+        }
+
         .achievement-notes__icon {
           top: 8px;
           right: -77px;
+
+          @media (max-width: $sm) {
+            display: none;
+          }
+
+          @media (max-width: $xs) {
+            display: block;
+          }
         }
       }
-
 
     }
 
     &:nth-child(2) {
       margin-right: 25px;
 
+      @media (max-width: $sm) {
+        margin-right: 0;
+        width: 197px;
+      }
+
+      @media (max-width: $xs) {
+        margin-right: 0;
+        width: 146px;
+      }
+
       .section-statistic__notes {
         position: absolute;
         top: -88px;
         right: 8px;
+
+        @media (max-width: $sm) {
+          top: -91px;
+          right: 43px;
+        }
+
+        @media (max-width: $xs) {
+          top: -98px;
+          right: 12px;
+        }
 
         .achievement-notes__icon {
           top: -9px;
@@ -41,10 +112,25 @@
 
     &:nth-child(3) {
 
+      @media (max-width: $sm) {
+        position: relative;
+        bottom: -31px
+      }
+
       .section-statistic__notes {
         position: absolute;
         top: -53px;
         right: -52px;
+
+        @media (max-width: $sm) {
+          top: -93px;
+          right: 50px;
+        }
+
+        @media (max-width: $xs) {
+          top: -102px;
+          right: -16px;
+        }
 
         .achievement-notes__icon {
           right: 11px;
@@ -61,9 +147,26 @@
     line-height: 1;
     position: relative;
 
+    @media (max-width: $sm) {
+      font-size: 32px;
+    }
+
+    @media (max-width: $xs) {
+      font-size: 26px;
+    }
+
     &_lg {
       font-size: 76px;
-      line-height: 0.87;
+      line-height: 1;
+
+      @media (max-width: $sm) {
+        font-size: 64px;
+      }
+
+      @media (max-width: $xs) {
+        font-size: 62px;
+        line-height: 1;
+      }
     }
   }
 
