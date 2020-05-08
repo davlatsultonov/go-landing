@@ -5,10 +5,29 @@
     margin-right: 74px;
     display: inline-block;
     vertical-align: bottom;
-    margin-bottom: 10px;
+
+    @media (max-width: $sm) {
+      margin-right: 20px;
+      max-width: 46.9%;
+      vertical-align: top;
+    }
+
+    @media (max-width: $xs) {
+      margin-right: 0;
+      max-width: 100%;
+      display: block;
+    }
 
     &:nth-child(even) {
       margin-right: 0;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+
+      @media (max-width: $sm) {
+        margin-bottom: 25px;
+      }
     }
 
   }
