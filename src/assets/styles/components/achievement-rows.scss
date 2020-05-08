@@ -2,8 +2,9 @@
   padding-top: 12px;
 
   @media (max-width: $sm) {
+    display: flex;
+    justify-content: space-evenly;
     padding-top: 33px;
-    padding-left: 81px;
   }
 
   @media (max-width: $xs) {
@@ -15,6 +16,7 @@
 
     @media (max-width: $sm) {
       display: inline-block;
+      text-align: center;
     }
 
     @media (max-width: $xs) {
@@ -36,11 +38,8 @@
     @media (max-width: $sm) {
       display: block;
       width: 200px;
-      height: 65px;
-      max-height: 65px;
       margin-top: 10px;
       margin-left: 0;
-      padding-top: 0!important;
     }
 
     @media (max-width: $xs) {
