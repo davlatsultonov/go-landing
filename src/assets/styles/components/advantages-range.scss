@@ -1,15 +1,52 @@
 .advantages-range {
   display: flex;
 
+
+  @media (max-width: $sm) {
+    display: block;
+  }
+
   &__item {
     display: inline-block;
     vertical-align: middle;
+
+
+    @media (max-width: $sm) {
+      width: 49%;
+      height: 165px;
+      vertical-align: top;
+    }
+
+    @media (max-width: $xs) {
+      width: 100%;
+      height: auto;
+    }
+
+    &:not(:last-child) {
+      @media (max-width: $sm) {
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: $xs) {
+        margin-bottom: 28px;
+      }
+    }
   }
 
   &__icon {
     height: 43px;
-    max-width: 51px;
-    margin-bottom: 25px;
+    max-width: 65px;
+    margin-bottom: 23px;
+
+    @media (max-width: $sm) {
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    @media (max-width: $xs) {
+      margin: 0 auto 13px;
+      text-align: center;
+    }
 
     img {
       height: 100%;
@@ -20,7 +57,16 @@
     font-size: 22px;
     line-height: 1.27;
 
-    .description__title {
+    @media (max-width: $sm) {
+      width: 85%;
+    }
+
+    @media (max-width: $xs) {
+      width: 100%;
+      text-align: center;
+    }
+
+      .description__title {
       font-size: 32px;
       font-weight: bold;
       margin-bottom: 4px;
