@@ -1,13 +1,30 @@
 .achievement-rows {
   padding-top: 12px;
 
+  @media (max-width: $sm) {
+    padding-top: 33px;
+    padding-left: 81px;
+  }
+
+  @media (max-width: $xs) {
+    padding-left: 0;
+  }
+
   &__item {
     margin-bottom: 25px;
+
+    @media (max-width: $sm) {
+      display: inline-block;
+    }
+
+    @media (max-width: $xs) {
+      display: block;
+    }
   }
 
   &__description {
     display: inline-block;
-    width: 260px;
+    width: 249px;
     height: 44px;
     max-height: 44px;
     overflow: hidden;
@@ -15,5 +32,23 @@
     margin-left: 10px;
     font-size: 16px;
     line-height: 1.4;
+
+    @media (max-width: $sm) {
+      display: block;
+      width: 200px;
+      height: 65px;
+      max-height: 65px;
+      margin-top: 10px;
+      margin-left: 0;
+      padding-top: 0!important;
+    }
+
+    @media (max-width: $xs) {
+      margin-top: 0;
+      display: inline-block;
+      margin-left: 9px;
+      width: 176px;
+      height: auto;
+    }
   }
 }

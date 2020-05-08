@@ -2,6 +2,12 @@
   float: left;
   width: 61%;
 
+  @media (max-width: $sm) {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
   &__item {
     display: inline-block;
     vertical-align: middle;
@@ -10,7 +16,21 @@
     padding: 35px 25px;
     border-radius: 8px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.12);
-    margin-right: 25px;
+    margin-right: 20px;
+    text-align: left;
+
+    @media (max-width: $xs) {
+      width: 100%;
+      display: block;
+      margin-right: 0;
+    }
+
+    &:first-child {
+
+      @media (max-width: $xs) {
+        margin-bottom: 20px;
+      }
+    }
   }
 
   &__title {
