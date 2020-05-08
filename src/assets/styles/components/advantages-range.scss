@@ -77,4 +77,20 @@
     }
   }
 
+  &.version-2 {
+
+      .advantages-range__icon {
+
+        @media (max-width: $xs) {
+          margin: 0 0 13px;
+        }
+      }
+
+      .advantages-range__description {
+
+        @media (max-width: $xs) {
+          text-align: left;
+        }
+      }
+    }
 }
