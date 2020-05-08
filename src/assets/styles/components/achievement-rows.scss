@@ -22,31 +22,34 @@
 
     @media (max-width: $xs) {
       display: block;
+      text-align: left;
     }
   }
 
   &__description {
     display: inline-block;
     width: 249px;
-    height: 44px;
-    max-height: 44px;
+    height: 68px;
+    max-height: 68px;
     overflow: hidden;
     vertical-align: middle;
     margin-left: 10px;
     font-size: 16px;
     line-height: 1.4;
+    padding-top: 8px;
 
     @media (max-width: $sm) {
       display: block;
       width: 200px;
       margin-top: 10px;
       margin-left: 0;
+      padding-top: 0!important;
     }
 
     @media (max-width: $xs) {
       margin-top: 0;
       display: inline-block;
-      margin-left: 9px;
+      margin-left: 15px;
       width: 176px;
       height: auto;
     }

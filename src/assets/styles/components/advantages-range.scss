@@ -40,7 +40,6 @@
 
     @media (max-width: $sm) {
       margin-bottom: 16px;
-      text-align: center;
     }
 
     @media (max-width: $xs) {
@@ -56,6 +55,7 @@
   &__description {
     font-size: 22px;
     line-height: 1.27;
+    padding-right: 18px;
 
     @media (max-width: $sm) {
       width: 85%;
@@ -77,20 +77,4 @@
     }
   }
 
-  &.version-2 {
-
-      .advantages-range__icon {
-
-        @media (max-width: $xs) {
-          margin: 0 0 13px;
-        }
-      }
-
-      .advantages-range__description {
-
-        @media (max-width: $xs) {
-          text-align: left;
-        }
-      }
-    }
 }

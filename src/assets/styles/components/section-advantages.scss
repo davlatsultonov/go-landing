@@ -15,4 +15,27 @@
   &__items {
     margin-top: 40px;
   }
+
+
+  &.version-2 {
+    display: none;
+
+    @media (max-width: $xs) {
+      display: block;
+    }
+
+    .advantages-range__icon {
+
+      @media (max-width: $xs) {
+        margin: 0 0 13px;
+      }
+    }
+
+    .advantages-range__description {
+
+      @media (max-width: $xs) {
+        text-align: left;
+      }
+    }
+  }
 }
